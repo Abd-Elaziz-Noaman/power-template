@@ -1,0 +1,205 @@
+        header {
+            background-image: url("/img/background.jpg");
+            background-size: 100% 100%;
+            border-bottom: 1px solid rgb(19, 136, 204);
+        }
+        
+        body {
+            font-family: Times New Roman;
+            background-color: whitesmoke;
+        }
+        
+        nav {
+            width: 70%;
+            margin: auto;
+            position: relative;
+            top: 50px;
+            border-radius: 0.25rem;
+        }
+        /** Home Page -------------------------------------------------------------------------------------------------------------**/
+        
+        #bgtext {
+            margin-top: 180px;
+            text-align: center;
+            font-weight: bold;
+            color: whitesmoke;
+        }
+        
+        .t1 {
+            font-size: 70px;
+            font-weight: bolder;
+        }
+        
+        .t2 {
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+        
+        #bt {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .hb {
+            margin: 10px;
+            font-weight: bold;
+        }
+        
+        #hb1 {
+            background-color: rgb(19, 136, 204);
+            color: whitesmoke;
+            border-radius: 0.25rem;
+            border-color: rgb(19, 136, 204);
+            ;
+        }
+        
+        #hb1:hover {
+            background-color: rgb(19, 118, 204);
+        }
+        
+        #hb2 {
+            background-color: rgb(223, 37, 124);
+            color: whitesmoke;
+            border-radius: 0.25rem;
+            border-color: rgb(223, 37, 124);
+        }
+        
+        #hb2:hover {
+            background-color: rgb(192, 43, 112);
+        }
+        /** Demo Page  -----------------------------------------------------------------------------------------------------------**/
+        
+        #demo {
+            background-color: rgb(19, 136, 204);
+            color: whitesmoke;
+            text-align: center;
+            margin-top: 0px;
+            height: 280px;
+        }
+        
+        #db {
+            border-radius: 0.25rem;
+        }
+        
+        #db:hover {
+            background-color: rgb(27, 127, 214);
+            color: whitesmoke;
+        }
+        
+        #d2 {
+            display: flex;
+            width: 100%;
+        }
+        
+        .dimg1 {
+            max-width: 80px;
+            margin-left: 125px;
+            margin-top: 30px;
+            margin-bottom: 8px;
+        }
+        
+        .dimg2 {
+            max-width: 80px;
+            margin-left: 125px;
+            margin-top: 25px;
+            margin-bottom: 8px;
+        }
+        
+        .dt1 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 35px;
+            color: whitesmoke;
+        }
+        
+        .dt2 {
+            text-align: center;
+            font-size: 17px;
+            color: whitesmoke;
+            flex-wrap: wrap;
+        }
+        
+        .c1 {
+            background-color: rgb(192, 43, 112);
+            padding: 20px;
+            border-bottom: 1px solid rgb(192, 43, 112);
+        }
+        
+        .c2 {
+            background-color: rgb(51, 51, 51);
+            padding: 20px;
+            border-bottom: 1px solid rgb(51, 51, 51);
+        }
+        /** Services Page ---------------------------------------------------------------------------------------------------------**/
+        
+        #services_box {
+            display: flex;
+            margin-left: 223px;
+            height: 170px;
+        }
+        
+        .s1 {
+            background-color: rgb(19, 136, 204);
+            min-width: 270px;
+        }
+        
+        .s2 {
+            background-color: rgb(51, 51, 51);
+            min-width: 270px;
+        }
+        
+        #services_block2 {
+            width: 1080px;
+            margin: auto;
+            display: flex;
+        }
+        
+        .Services_paragraph {
+            font-size: 18px;
+            color: black;
+            font-weight: bold;
+            flex-wrap: wrap;
+        }
+        
+        #services_img {
+            width: 500px;
+            height: 400px;
+        }
+        /** About Page -------------------------------------------------------------------------------------------------------**/
+        
+        .about_block1 {
+            width: 1080px;
+            margin: auto;
+        }
+        
+        #about_block2 {
+            width: 1080px;
+            display: flex;
+            margin: auto;
+            justify-content: space-between;
+        }
+        
+        .about_img {
+            width: 250px;
+            height: 180px;
+        }
+        
+        #contact_block {
+            width: 1080px;
+            margin: auto;
+            display: flex;
+        }
+        
+        .inputs {
+            color: rgb(37, 37, 37);
+        }
+        
+        .label_font {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        #contact_img {
+            width: 500px;
+            height: 300px;
+        }
